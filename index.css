@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sora:wght@100..800&display=swap');
+
+* {
+    font-family: "Sora", sans-serif;
+}
+
+body {
+    background-color: rgb(216, 195, 224);
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(244, 230, 255);
+    color: rgb(177, 151, 252);
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+#logo {
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: flex-end;
+   gap: 4px;
+}
+
+#logo-txt {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.header-txt {
+    font-family: "Pacifico", Impact, sans-serif;
+}
+
