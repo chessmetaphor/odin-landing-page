@@ -13,7 +13,9 @@
 }
 
 body {
-    background-color: rgb(216, 195, 224);
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fed%2F33%2Fe2%2Fed33e27849081a59a8e5b190d6fe2315.gif&f=1&nofb=1&ipt=700ca8caf8d30925f371ac942f519cdf3530b94c7a2e09797cd41d94f41fbcbf&ipo=images")
+                no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -27,6 +29,14 @@ header {
     padding: 4px;
 
 }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgb(90, 50, 120);
+}
+
 
 /* IDs and Classes */
 
@@ -52,7 +62,7 @@ header {
 
 #welcome-txt {
     flex: 0 1 500px;
-    color: var(--drk-txt);
+    color: whitesmoke;
 }
 
 #gallery {
@@ -70,9 +80,16 @@ header {
     grid-template-columns: repeat(5, 400px);
     grid-template-rows: auto;
     overflow-x: scroll;
-    gap: 15px;
+    gap: 16px;
     width: 90%;
     margin-bottom: 25px;
+}
+
+#quotes {
+    padding: 45px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 15px;
 }
 
 
